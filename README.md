@@ -59,4 +59,5 @@ Future additions like Random Forest model comparison, exporting results to files
 -Select a graph type and execute to see ML results and visualizations.
 
 	Note
-	Since this project is still being actively built, some features like multifactor analysis and real-time 	prediction from user input are under development. Regular updates will be pushed as the project progresses.
+	Since this project is still being actively built, some features like multifactor analysis and real-time 	
+ 	prediction from user input are under development. Regular updates will be pushed as the project progresses.
