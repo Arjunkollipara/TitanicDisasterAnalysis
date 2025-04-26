@@ -44,13 +44,13 @@ Future additions like Random Forest model comparison, exporting results to files
 
 -Ensure Python 3.10 or 3.9 is installed along with required libraries:
 
--pandas
+	-pandas
 
--seaborn
+	-seaborn
 
--matplotlib
+	-matplotlib
 
--scikit-learn
+	-scikit-learn
 
 -Place train.csv from Kaggle Titanic Dataset into the project folder.
 
@@ -58,5 +58,5 @@ Future additions like Random Forest model comparison, exporting results to files
 
 -Select a graph type and execute to see ML results and visualizations.
 
-Note
-Since this project is still being actively built, some features like multifactor analysis and real-time prediction from user input are under development. Regular updates will be pushed as the project progresses.
+	Note
+	Since this project is still being actively built, some features like multifactor analysis and real-time 	prediction from user input are under development. Regular updates will be pushed as the project progresses.
