@@ -5,18 +5,19 @@ The aim is to create a full offline desktop solution without relying on web appl
 
 Currently, the application provides survival predictions and graph-based data exploration through an interactive Java interface. The backend uses a Logistic Regression model trained on the Titanic dataset.
 
-Current Status
+
+####Current Status:
 The project is under active development. The following features are currently implemented:
 
 Logistic Regression model is trained on the Titanic dataset.
 
 The model generates essential machine learning graphs:
 
-Confusion Matrix
+	-Confusion Matrix
 
-Actual vs Predicted comparison
+	-Actual vs Predicted comparison
 
-Logistic Regression Coefficient Importance
+	-Logistic Regression Coefficient Importance
 
 An additional custom graph based on selected factors (such as Survival vs Age, Survival vs Sex, etc.) can be generated dynamically from the Java application.
 
@@ -35,10 +36,13 @@ Improving Python backend to handle new prediction requests dynamically.
 
 Future additions like Random Forest model comparison, exporting results to files, and batch predictions for multiple passengers.
 
-How to Run (Current Version)
-Clone the repository.
 
-Ensure Python 3.10 or 3.9 is installed along with required libraries:
+
+#How to Run (Current Version)#
+
+-Clone the repository.
+
+-Ensure Python 3.10 or 3.9 is installed along with required libraries:
 
 -pandas
 
@@ -48,11 +52,11 @@ Ensure Python 3.10 or 3.9 is installed along with required libraries:
 
 -scikit-learn
 
-Place train.csv from Kaggle Titanic Dataset into the project folder.
+-Place train.csv from Kaggle Titanic Dataset into the project folder.
 
-Compile and run the Java GUI (MainApp.java).
+-Compile and run the Java GUI (MainApp.java).
 
-Select a graph type and execute to see ML results and visualizations.
+-Select a graph type and execute to see ML results and visualizations.
 
 Note
 Since this project is still being actively built, some features like multifactor analysis and real-time prediction from user input are under development. Regular updates will be pushed as the project progresses.
